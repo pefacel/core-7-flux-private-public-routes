@@ -1,0 +1,29 @@
+Login -> {
+    1. Ejemplo de cómo utilizar el dispatch cuando el usuario se logea.
+    2. Ejemplo de cómo utilizar el public route con un path por defecto.
+}
+
+Dashboard -> {
+    1. Ejemplo de cómo utilizar una ruta privada dando un path.
+}
+
+Routes -> {
+    1. PrivateRoute -> si no encuentra usuario, trigger del LoadingToRedirect al Login
+    2. PublicRoute -> si encuentra usuario, trigger del LoadingToRedirect al Dashboard
+
+}
+
+LoadingToRedirect -> {
+    1. Te reenvía a la ruta solicitada después de N segundos
+}
+
+authContext -> {
+    1. Ejemplo del contexto de auth utilizando Flux (con useReducer en vez de useState)
+}
+
+next.config.js ->{
+    1. Se explica cómo redireccionar.
+    2. TAREA: ¿Qué cambios se observan en el flujo de authentication si se pone en 
+    reactStrictMode: true?
+}
+
